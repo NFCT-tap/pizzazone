@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kritunga Offers</title>
+    <title>Pizza Zone Offers</title>
     <style>
         body, html {
             width: 100%;
@@ -14,21 +14,21 @@
             align-items: center;
             overflow-x: hidden;
         }
-        .video-container {
+        .image-container {
             width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
             margin-bottom: 20px;
         }
-        video {
+        img {
             max-width: 100%;
             border-radius: 5px;
             height: auto;
             object-fit: contain;
         }
         @media (max-width: 768px) {
-            video {
+            img {
                 width: 100%;
                 height: auto;
             }
@@ -36,25 +36,12 @@
     </style>
 </head>
 <body>
-    <div class="video-container">
-        <video playsinline autoplay loop muted>
-            <source src="assets/s1.mp4" type="video/mp4">
-        </video>
+    <div class="image-container">
+        <img src="assets/offer1.jpg" alt="Offer 1">
     </div>
-    <div class="video-container">
-        <video playsinline autoplay loop muted>
-            <source src="assets/s2.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div class="video-container">
-        <video playsinline autoplay loop muted>
-            <source src="assets/s3.mp4" type="video/mp4">
-        </video>
-    </div>
-	<div class="video-container">
-        <video playsinline autoplay loop muted>
-            <source src="assets/s4.mp4" type="video/mp4">
-        </video>
+    <div class="image-container">
+        <img src="assets/offer2.jpg" alt="Offer 2">
     </div>
 </body>
 </html>
+
